@@ -8,7 +8,7 @@ class ListNode {
     }
 }
 
-public class add_two_numbers{
+public class add_two_numbers {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
@@ -39,8 +39,7 @@ public class add_two_numbers{
         return dummy.next;
     }
 
-    // Print Linked List
-    public static void printList(ListNode head) {
+    static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val + " ");
             head = head.next;
@@ -49,12 +48,10 @@ public class add_two_numbers{
 
     public static void main(String[] args) {
 
-        // l1 = 2 -> 4 -> 3
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
         l1.next.next = new ListNode(3);
 
-        // l2 = 5 -> 6 -> 4
         ListNode l2 = new ListNode(5);
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
