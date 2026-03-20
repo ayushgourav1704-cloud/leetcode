@@ -8,7 +8,7 @@ class ListNode {
     }
 }
 
-class Solution {
+class add_two_numbers {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
